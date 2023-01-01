@@ -2,11 +2,14 @@ body, html {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* Default container for all questions */
 #container {
     width: 1280px; 
     margin:auto;
 }
 
+/* Question styles */
 .question {
     padding: 10px;
     border-radius: 6px;
@@ -36,7 +39,6 @@ body, html {
 
 .question.open:hover {
     background: white;
-    
 }
 
 .question h4 {
