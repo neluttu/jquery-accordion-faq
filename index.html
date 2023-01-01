@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>jQuery simple FAQ accordion</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script src="jQueryFAQAccordion.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div class="question">
+                <h4>The CSS rules visibility:hidden and display:none, what's the difference?</h4>
+                <div class="faqAnswer">
+                    display:none means that the tag in question will not appear on the page at all (although you can still interact with it through the dom). There will be no space allocated for it between the other tags.<br><br>
+                    visibility:hidden means that unlike display:none, the tag is not visible, but space is allocated for it on the page. The tag is rendered, it just isn't seen on the page.
+                </div>
+            </div>
+
+            <div class="question">
+                <h4>What is the Box model in CSS? Which CSS properties are a part of it?</h4>
+                <div class="faqAnswer">
+                    A rectangle box is wrapped around every HTML element. The box model is used to determine the height and width of the rectangular box. The CSS Box consists of Width and height (or in the absence of that, default values and the content inside), padding, borders, margin.
+                </div>
+            </div>
+
+            <div class="question">
+                <h4>What is the difference between inline, inline-block, and block? </h4>
+                <div class="faqAnswer">
+                    Block Element: The block elements always start on a new line. They will also take space for an entire row or width. List of block elements are div, p.<br><br>
+                    Inline Elements: Inline elements don't start on a new line, they appear on the same line as the content and tags beside them. Some examples of inline elements are a, span , strong, and img tags. <br><br>
+                    Inline Block Elements: Inline-block elements are similar to inline elements, except they can have padding and margins and set height and width values.<br><br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

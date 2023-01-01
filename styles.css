@@ -1,0 +1,62 @@
+body, html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    width: 1280px; 
+    margin:auto;
+}
+
+.question {
+    padding: 10px;
+    border-radius: 6px;
+    background: white;
+    transition: all 0.5s ease;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.question:hover {
+    background-color: #0695dd;
+}
+
+.question.open {
+    -webkit-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.13);
+    box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.13);
+}
+
+.question .faqAnswer { 
+    display: none; 
+    padding: 20px 10px;
+    line-height: 28px;
+    color: rgba(0,0,0,0.6);
+    font-size: 17px;
+}
+
+.question.open:hover {
+    background: white;
+    
+}
+
+.question h4 {
+    border-radius: 6px;
+    margin: 0px;
+    padding: 10px;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.question h4.open {
+    border-radius: 6px;
+    margin: 0px;
+    color: white;
+    background-color: #0695dd;
+    cursor: pointer;
+}
+
+.question:hover h4 {
+    color: white;
+}
