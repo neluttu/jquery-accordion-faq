@@ -8,7 +8,7 @@ Usage:<br><br>
 - include the styles.css in your project<br>
 - copy paste the following code to add questions and answers:
 <br><br>
-<code>
+```
             <div class="question">
                 <h4>What is the Box model in CSS? Which CSS properties are a part of it?</h4>
                 <div class="faqAnswer">
@@ -16,4 +16,4 @@ Usage:<br><br>
                 </div>
             </div>
 
-</code>
+```
