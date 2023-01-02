@@ -5,8 +5,9 @@ $(document).ready(function() {
         // Check to see if there is a toggled question and close it.
         if ($('.faqAnswer').is(':visible')) {
             $(".faqAnswer").slideUp(300);
-            $('.faqContainer').removeClass("open");
+            $('.question').removeClass("open");
             $('h4').removeClass("open");
+            console.log('verificam...');
         }
 
         if ($(this).next(".faqAnswer").is(':visible')) {
