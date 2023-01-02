@@ -14,14 +14,22 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script src="jQueryFAQAccordion.js"></script>
     </head>
     <body>
         <div id="container">
+            <h1>Simple jQuery FAQ Accordion</h1>
+            Add as many questions you like. Questions will revert to normal state (answer hidden) once you open a second one.<br>
+            Try hovering a question. Try clicking on a question.<br>
+            <br>
+            <h3>Live example:</h3>
+            <!-- these are your questions-->
             <div class="question">
+                <!-- this is the question -->
                 <h4>The CSS rules visibility:hidden and display:none, what's the difference?</h4>
                 <div class="faqAnswer">
+                    <!-- this is the answer -->
                     display:none means that the tag in question will not appear on the page at all (although you can still interact with it through the dom). There will be no space allocated for it between the other tags.<br><br>
                     visibility:hidden means that unlike display:none, the tag is not visible, but space is allocated for it on the page. The tag is rendered, it just isn't seen on the page.
                 </div>
@@ -42,6 +50,9 @@
                     Inline Block Elements: Inline-block elements are similar to inline elements, except they can have padding and margins and set height and width values.<br><br>
                 </div>
             </div>
+            <!-- end of your questions -->
+            <br><br>
+            Coded by @neluttu as project to learn how git and github works.
         </div>
     </body>
 </html>
