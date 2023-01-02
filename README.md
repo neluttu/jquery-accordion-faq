@@ -17,3 +17,5 @@ Usage:<br><br>
             </div>
 
 ```
+
+Have fun, enjoy the code as I enjoyed learning Git / GitHub.
