@@ -7,7 +7,6 @@ $(document).ready(function() {
             $(".faqAnswer").slideUp(300);
             $('.question').removeClass("open");
             $('h4').removeClass("open");
-            console.log('verificam...');
         }
 
         if ($(this).next(".faqAnswer").is(':visible')) {
