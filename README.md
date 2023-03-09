@@ -3,7 +3,7 @@
 This is just a simple jQuery accordion that you can use for a FAQ page.
 View only one question answer and hide others.
 <br><br>
-##Screenshot :
+## Screenshot :
 <img src="/screenshot.png">
 <br><br>
 Usage:<br><br>
